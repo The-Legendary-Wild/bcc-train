@@ -5,25 +5,25 @@ Trains = {
     appleseed = {
         model = 'appleseed_config',     -- Model Name of the Train - DO NOT CHANGE
         label = 'Appleseed',            -- Displayed Name of this Train
-        price = 150,                    -- Purchase Price for this Train
+        price = 1500,                    -- Purchase Price for this Train
         maxSpeed = 15,                  -- Max Speed / *30 is Highest Game Allows*
         fuel = {
             enabled = true,             -- Set false to Disable Fuel Use
             maxAmount = 100,            -- Maximum Fuel Capacity
             itemAmount = 5,             -- Number of Items Needed to Fuel Train
-            decreaseTime = 30,          -- Time in Seconds to Decrease Fuel Level
+            decreaseTime = 300,          -- Time in Seconds to Decrease Fuel Level
             decreaseAmount = 5          -- Amount of Fuel to Decrease
         },
         condition = {
             enabled = true,             -- Set false to Disable Condition Decrease
             maxAmount = 100,            -- Maximum Condition
             itemAmount = 5,             -- Number of Items Needed to Repair Train
-            decreaseTime = 30,          -- Time in Seconds to Decrease Condition Level
-            decreaseAmount = 5          -- Amount of Condition to Decrease
+            decreaseTime = 600,          -- Time in Seconds to Decrease Condition Level
+            decreaseAmount = 1          -- Amount of Condition to Decrease
         },
         inventory = {
             enabled = true,             -- Set to false to Disable Train Inventory
-            limit = 100,                -- Inventory Limit for this Train
+            limit = 500,                -- Inventory Limit for this Train
             acceptWeapons = true,       -- Inventory can Hold Weapons
             shared = true,              -- Inventory is Shared with All Players
         },
@@ -37,25 +37,25 @@ Trains = {
     bountyhunter = {
         model = 'bountyhunter_config',
         label = 'Bounty Hunter',
-        price = 175,
+        price = 1750,
         maxSpeed = 20,
         fuel = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
+            decreaseTime = 300,
             decreaseAmount = 5
         },
         condition = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
-            decreaseAmount = 5
+            decreaseTime = 600,
+            decreaseAmount = 1
         },
         inventory = {
             enabled = true,
-            limit = 100,
+            limit = 500,
             acceptWeapons = true,
             shared = true,
         },
@@ -69,25 +69,25 @@ Trains = {
     engine = {
         model = 'engine_config',
         label = 'Engine (No Cars)',
-        price = 250,
+        price = 2500,
         maxSpeed = 30,
         fuel = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
+            decreaseTime = 300,
             decreaseAmount = 5
         },
         condition = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
-            decreaseAmount = 5
+            decreaseTime = 600,
+            decreaseAmount = 1
         },
         inventory = {
             enabled = true,
-            limit = 100,
+            limit = 20,
             acceptWeapons = true,
             shared = true,
         },
@@ -101,25 +101,25 @@ Trains = {
     gunslinger3 = {
         model = 'gunslinger3_config',
         label = 'Gunslinger 3',
-        price = 175,
+        price = 1750,
         maxSpeed = 20,
         fuel = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
+            decreaseTime = 300,
             decreaseAmount = 5
         },
         condition = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
-            decreaseAmount = 5
+            decreaseTime = 600,
+            decreaseAmount = 1
         },
         inventory = {
             enabled = true,
-            limit = 100,
+            limit = 300,
             acceptWeapons = true,
             shared = true,
         },
@@ -133,25 +133,25 @@ Trains = {
     gunslinger4 = {
         model = 'gunslinger4_config',
         label = 'Gunslinger 4',
-        price = 200,
+        price = 2000,
         maxSpeed = 25,
         fuel = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
+            decreaseTime = 300,
             decreaseAmount = 5
         },
         condition = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
-            decreaseAmount = 5
+            decreaseTime = 600,
+            decreaseAmount = 1
         },
         inventory = {
             enabled = true,
-            limit = 100,
+            limit = 200,
             acceptWeapons = true,
             shared = true,
         },
@@ -165,25 +165,25 @@ Trains = {
     prisoner = {
         model = 'prisoner_escort_config',
         label = 'Prisoner Escort',
-        price = 100,
+        price = 1000,
         maxSpeed = 10,
         fuel = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
+            decreaseTime = 300,
             decreaseAmount = 5
         },
         condition = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
-            decreaseAmount = 5
+            decreaseTime = 600,
+            decreaseAmount = 1
         },
         inventory = {
             enabled = true,
-            limit = 100,
+            limit = 50,
             acceptWeapons = true,
             shared = true,
         },
@@ -197,25 +197,25 @@ Trains = {
     winter4 = {
         model = 'winter4_config',
         label = 'Winter 4',
-        price = 150,
+        price = 1500,
         maxSpeed = 15,
         fuel = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
+            decreaseTime = 300,
             decreaseAmount = 5
         },
         condition = {
             enabled = true,
             maxAmount = 100,
             itemAmount = 5,
-            decreaseTime = 30,
-            decreaseAmount = 5
+            decreaseTime = 600,
+            decreaseAmount = 1
         },
         inventory = {
             enabled = true,
-            limit = 100,
+            limit = 500,
             acceptWeapons = true,
             shared = true,
         },

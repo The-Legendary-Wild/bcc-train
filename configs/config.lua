@@ -24,7 +24,7 @@ Config.maxTrains = 5 -- Max Number of Trains a Player may Own
 Config.sellPrice = 0.60 -- Default: 0.60 / Sell Price is 60% of Purchase Price
 -----------------------------------------------------
 
-Config.cruiseControl = false -- Set true to Enable Cruise Control
+Config.cruiseControl = true -- Set true to Enable Cruise Control
 -----------------------------------------------------
 
 Config.fuel = {
@@ -66,7 +66,7 @@ Config.minigame = {
 
 -- Time in Minutes Before Player can Start Delivery After Successful Completion
 Config.cooldown = {
-    delivery = 30
+    delivery = 5
 }
 -----------------------------------------------------
 
@@ -74,28 +74,28 @@ Config.deliveryLocations = { -- Add as Many Locations as You Want
     { -- Heartland Oil Fields
         trainCoords = vector3(482.21, 655.46, 115.67),      -- Stop Train for Delivery
         deliveryCoords = vector3(469.27, 669.22, 117.39),   -- Player Delivery Coords
-        pay = 20,                                           -- Pay for Completing Mission
+        pay = 200,                                           -- Pay for Completing Mission
         outWest = false,                                    -- Set false if This is Not in the Desert/Western Part of the Map
         radius = 10                                         -- Radius from trainCoords to Stop the Train
     },
     { -- East Hanover
         trainCoords = vector3(2231.4, 657.21, 93.83),
         deliveryCoords = vector3(2226.6, 644.73, 93.33),
-        pay = 30,
+        pay = 300,
         outWest = false,
         radius = 10
     },
     { -- St. Denis
         trainCoords = vector3(2712.19, -1467.63, 45.75),
         deliveryCoords = vector3(2713.09, -1491.56, 45.97),
-        pay = 50,
+        pay = 500,
         outWest = false,
         radius = 10
     },
     { -- Armadillo
         trainCoords = vector3(-3749.8, -2635.28, -13.87),
         deliveryCoords = vector3(-3735.51, -2620.4, -13.27),
-        pay = 30,
+        pay = 300,
         outWest = true,
         radius = 10
     },
