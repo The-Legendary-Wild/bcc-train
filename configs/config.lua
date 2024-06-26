@@ -15,7 +15,7 @@ Config.keys = {
 
 Config.webhookLink = '' -- Insert Webhook Link to Enable
 Config.webhookTitle = 'BCC-Train' -- Insert Webhook Title
-Config.webhookAvatar = '' -- Insert Webhook Avatar
+Config.webhookAvatar = 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Icon-mode-commuter-rail-default.svg/120px-Icon-mode-commuter-rail-default.svg.png?20190502193513' -- Insert Webhook Avatar
 -----------------------------------------------------
 
 Config.maxTrains = 5 -- Max Number of Trains a Player may Own
@@ -48,7 +48,7 @@ Config.bacchusBridge = {
 }
 -----------------------------------------------------
 
-Config.despawnDist = 300 -- Maximum Distance Conductor can be from Train Before it Despawns
+Config.despawnDist = 600 -- Maximum Distance Conductor can be from Train Before it Despawns
 -----------------------------------------------------
 
 Config.minigame = {
@@ -74,28 +74,28 @@ Config.deliveryLocations = { -- Add as Many Locations as You Want
     { -- Heartland Oil Fields
         trainCoords = vector3(482.21, 655.46, 115.67),      -- Stop Train for Delivery
         deliveryCoords = vector3(469.27, 669.22, 117.39),   -- Player Delivery Coords
-        pay = 200,                                           -- Pay for Completing Mission
+        pay = 42,                                           -- Pay for Completing Mission
         outWest = false,                                    -- Set false if This is Not in the Desert/Western Part of the Map
         radius = 10                                         -- Radius from trainCoords to Stop the Train
     },
     { -- East Hanover
         trainCoords = vector3(2231.4, 657.21, 93.83),
         deliveryCoords = vector3(2226.6, 644.73, 93.33),
-        pay = 300,
+        pay = 70,
         outWest = false,
         radius = 10
     },
     { -- St. Denis
         trainCoords = vector3(2712.19, -1467.63, 45.75),
         deliveryCoords = vector3(2713.09, -1491.56, 45.97),
-        pay = 500,
+        pay = 56,
         outWest = false,
         radius = 10
     },
     { -- Armadillo
         trainCoords = vector3(-3749.8, -2635.28, -13.87),
         deliveryCoords = vector3(-3735.51, -2620.4, -13.27),
-        pay = 300,
+        pay = 70,
         outWest = true,
         radius = 10
     },
