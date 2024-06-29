@@ -59,14 +59,14 @@ Config.minigame = {
     userandomkey = false,   -- Should the minigame generate a random key to press?
     keytopress = 'B',       -- userandomkey must be false for this to work. Static key to press
     keycode = 66,           -- The JS keycode for the keytopress
-    speed = 3,              -- How fast the orbiter grows
+    speed = 2.8,              -- How fast the orbiter grows
     strict = true           -- if true, letting the timer run out counts as a failed attempt
 }
 -----------------------------------------------------
 
 -- Time in Minutes Before Player can Start Delivery After Successful Completion
 Config.cooldown = {
-    delivery = 2
+    delivery = 0
 }
 -----------------------------------------------------
 
@@ -164,7 +164,7 @@ Config.deliveryLocations = { -- Add as Many Locations as You Want
     },
     { -- Annesburg — Train Station
         trainCoords = vector3(2954.89, 1277.27, 43.88),
-        deliveryCoords = vector3(2946.38, 1294.51, 44.58),
+        deliveryCoords = vector3(2960.39, 1288.22, 43.97),
         pay = 42,
         outWest = false,
         radius = 10
