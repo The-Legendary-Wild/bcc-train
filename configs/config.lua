@@ -59,7 +59,7 @@ Config.minigame = {
     userandomkey = false,   -- Should the minigame generate a random key to press?
     keytopress = 'B',       -- userandomkey must be false for this to work. Static key to press
     keycode = 66,           -- The JS keycode for the keytopress
-    speed = 5,              -- How fast the orbiter grows
+    speed = 3,              -- How fast the orbiter grows
     strict = true           -- if true, letting the timer run out counts as a failed attempt
 }
 -----------------------------------------------------
