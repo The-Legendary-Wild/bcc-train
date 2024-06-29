@@ -74,133 +74,133 @@ Config.deliveryLocations = { -- Add as Many Locations as You Want
     { -- Heartland Oil Fields
         trainCoords = vector3(482.21, 655.46, 115.67),      -- Stop Train for Delivery
         deliveryCoords = vector3(469.27, 669.22, 117.39),   -- Player Delivery Coords
-        pay = 42,                                           -- Pay for Completing Mission
+        pay = 84,                                           -- Pay for Completing Mission
         outWest = false,                                    -- Set false if This is Not in the Desert/Western Part of the Map
         radius = 10                                         -- Radius from trainCoords to Stop the Train
     },
     { -- East Hanover Camp
         trainCoords = vector3(2231.4, 657.21, 93.83),
         deliveryCoords = vector3(2226.6, 644.73, 93.33),
-        pay = 70,
+        pay = 140,
         outWest = false,
         radius = 10
     },
     { -- Riggs Station
         trainCoords = vector3(-1099.4, -581.83, 81.74),
         deliveryCoords = vector3(-1089.98, -569.49, 81.88),
-        pay = 49,
+        pay = 98,
         outWest = false,
         radius = 10
     },
     { -- Flatneck Station
         trainCoords = vector3(-336.31, -347.68, 87.69),
         deliveryCoords = vector3(-323.46, -354.95, 87.96),
-        pay = 42,
+        pay = 84,
         outWest = false,
         radius = 10
     },
     { -- Rhodes — Jansen Mills
         trainCoords = vector3(1071.04, -1114.28, 67.22),
         deliveryCoords = vector3(1054.02, -1123.74, 67.84),
-        pay = 56,
+        pay = 112,
         outWest = false,
         radius = 10
     },
     { -- Rhodes — Train Station
         trainCoords = vector3(1238.72, -1322.59, 76.37),
         deliveryCoords = vector3(1237.42, -1310.82, 76.86),
-        pay = 42,
+        pay = 84,
         outWest = false,
         radius = 10
     },
     { -- St. Denis — Goods Warehouse
         trainCoords = vector3(2542.21, -1482.45, 45.9),
         deliveryCoords = vector3(2564.14, -1496.34, 45.92),
-        pay = 56,
+        pay = 112,
         outWest = false,
         radius = 10
     },
     { -- St. Denis — M. Madison & Co.
         trainCoords = vector3(2724.56, -1461.61, 45.85),
         deliveryCoords = vector3(2733.89, -1479.6, 45.34),
-        pay = 63,
+        pay = 126,
         outWest = false,
         radius = 10
     },
     { -- St. Denis — Port
         trainCoords = vector3(2788.84, -1393.72, 46.01),
         deliveryCoords = vector3(2813.91, -1396.89, 45.34),
-        pay = 56,
+        pay = 112,
         outWest = false,
         radius = 10
     },
     { -- St. Denis — Castille Cotton
         trainCoords = vector3(2632.4, -1476.85, 45.81),
         deliveryCoords = vector3(2633.41, -1454.32, 46.31),
-        pay = 63,
+        pay = 126,
         outWest = false,
         radius = 10
     },
     { -- St. Denis — Gauche Bros Lumber
         trainCoords = vector3(2900.34, -1227.56, 45.84),
         deliveryCoords = vector3(2883.5, -1248.62, 45.9),
-        pay = 42,
+        pay = 84,
         outWest = false,
         radius = 10
     },
     { -- Van Horn Stable
         trainCoords = vector3(2901.93, 798.43, 50.65),
         deliveryCoords = vector3(2957.49, 789.05, 51.35),
-        pay = 84,
+        pay = 168,
         outWest = false,
         radius = 10
     },
     { -- Annesburg — Jameson Mining
         trainCoords = vector3(2943.42, 1382.19, 43.93),
         deliveryCoords = vector3(2946.38, 1379.86, 46.33),
-        pay = 56,
+        pay = 112,
         outWest = false,
         radius = 10
     },
     { -- Annesburg — Train Station
         trainCoords = vector3(2954.89, 1277.27, 43.88),
         deliveryCoords = vector3(2960.39, 1288.22, 43.97),
-        pay = 42,
+        pay = 84,
         outWest = false,
         radius = 10
     },
     { -- Annesburg — Stable
         trainCoords = vector3(2946.38, 1294.51, 44.58),
         deliveryCoords = vector3(2981.26, 1432.61, 44.63),
-        pay = 49,
+        pay = 98,
         outWest = false,
         radius = 10
     },
     { -- Bacchus Station
         trainCoords = vector3(576.18, 1695.65, 187.5),
         deliveryCoords = vector3(585.87, 1680.06, 187.74),
-        pay = 77,
+        pay = 154,
         outWest = false,
         radius = 10
     },
     { -- Wallace Station
         trainCoords = vector3(-1310.31, 402.8, 95.01),
         deliveryCoords = vector3(-1295.06, 409.75, 95.33),
-        pay = 77,
+        pay = 154,
         outWest = false,
         radius = 10
     },
     { -- Valentine Station
         trainCoords = vector3(-164.53, 626.5, 113.46),
         deliveryCoords = vector3(-183.53, 616.7, 113.38),
-        pay = 56,
+        pay = 112,
         outWest = false,
         radius = 10
     },
     { -- Emerald Station
         trainCoords = vector3(1529.71, 439.97, 90.16),
         deliveryCoords = vector3(1525.33, 434.94, 90.63),
-        pay = 56,
+        pay = 112,
         outWest = false,
         radius = 10
     },
@@ -210,28 +210,28 @@ Config.deliveryLocations = { -- Add as Many Locations as You Want
     { -- Armadillo
         trainCoords = vector3(-3749.8, -2635.28, -13.87),
         deliveryCoords = vector3(-3735.51, -2620.4, -13.27),
-        pay = 70,
+        pay = 140,
         outWest = true,
         radius = 10
     },
     { -- MacFarlane's Ranch
         trainCoords = vector3(-2492.55, -2449.78, 60.3),
         deliveryCoords = vector3(-2499.76, -2420.72, 60.55),
-        pay = 56,
+        pay = 112,
         outWest = true,
         radius = 10
     },
     { -- Benedict Point
         trainCoords = vector3(-5238.55, -3501.53, -21.21),
         deliveryCoords = vector3(-5225.83, -3483.7, -20.59),
-        pay = 77,
+        pay = 154,
         outWest = true,
         radius = 10
     },
     { -- camp near Cholla Springs
         trainCoords = vector3(-5026.56, -2545.76, -8.61),
         deliveryCoords = vector3(-5078.95, -2529.75, -11.35),
-        pay = 42,
+        pay = 84,
         outWest = true,
         radius = 10
     },
